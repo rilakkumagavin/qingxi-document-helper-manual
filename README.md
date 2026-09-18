@@ -9,3 +9,5 @@ GitHub Pages：main 分支根目錄，與 shis-local-manual 相同。
 本機預覽：`python -m http.server 8768`。修改 index.html、style.css、manual.js 後推送 main。
 
 完整 Windows 安裝包放在 [GitHub Releases](https://github.com/rilakkumagavin/qingxi-document-helper-manual/releases/latest)，不放入 Git 歷史。手冊安裝章節提供直接下載與 SHA-256 核對方式。
+
+後續發布：建立新的 Release，將完整安裝包命名為 `Qingxi-windows-x64.zip`，附上同名 `.sha256` 校驗檔，並設定為 Latest。手冊的 latest/download 連結即可取得新包，不必修改版號。
